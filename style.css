@@ -1,0 +1,66 @@
+.Body{
+	padding: 0;
+	margin: 0;
+}
+.Body--default{
+	color: #666;
+	font-family: Arial;
+	padding: 25px 0 0 25px;
+	font-size: 15px;
+	max-width: 730px;
+}
+.Block{
+	margin: 0;
+	padding: 10px 0;
+}
+.Header{
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.Header-primary{
+	font-size: 30px;
+	color: #627d81;
+	padding-bottom: 10px;
+}
+.Header-secondary{
+	line-height: 1.3em;
+	color: #ff9900;
+	padding-bottom: 5px;
+}
+.Text{
+	margin: 0;
+	padding: 0;
+}
+.Text-link{
+	color: #627d81;
+	text-decoration: underline;
+}
+.Text-link:hover{
+	color: #fb8707;
+}
+.List{
+	margin: 0;
+	padding: 0;
+}
+.List--default{
+	list-style: none;
+	display: flex ;
+	flex-direction: column;
+}
+.List-Item{
+	padding: 0;
+	margin: 0;
+}
+.List-Item--arrow:before{
+	content: "\f30b";
+	font-family: Font Awesome\ 5 Free;
+	font-weight: 900;
+	padding-right: 5px;
+	font-size: 12px;
+	color: #ff9900;
+}
+.List-Item--dot{
+	background: url('https://www.nfq.lt/public/images/web/ul.gif') no-repeat left 7px;
+	padding-left: 15px;
+}
