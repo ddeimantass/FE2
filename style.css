@@ -1,8 +1,5 @@
 .Body{
-	padding: 0;
 	margin: 0;
-}
-.Body--default{
 	color: #666;
 	font-family: Arial;
 	padding: 25px 0 0 25px;
@@ -13,20 +10,20 @@
 	margin: 0;
 	padding: 10px 0;
 }
-.Header{
+
+.HeadlinePrimary{
 	font-weight: bold;
 	margin: 0;
-	padding: 0;
-}
-.Header-primary{
+	padding: 0 0 10px 0;
 	font-size: 30px;
 	color: #627d81;
-	padding-bottom: 10px;
 }
-.Header-secondary{
+.HeadlineSecondary{
+	font-weight: bold;
+	margin: 0;
+	padding: 0 0 5px 0;
 	line-height: 1.3em;
 	color: #ff9900;
-	padding-bottom: 5px;
 }
 .Text{
 	margin: 0;
@@ -39,11 +36,9 @@
 .Text-link:hover{
 	color: #fb8707;
 }
-.List{
+.BulletList{
 	margin: 0;
 	padding: 0;
-}
-.List--default{
 	list-style: none;
 	display: flex ;
 	flex-direction: column;
